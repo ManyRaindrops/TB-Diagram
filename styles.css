@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.diagram-box {
+    margin: 20px 0;
+}
+
+.diagram-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.choice-box {
+    margin-top: 20px;
+}
+
+.choice-box label {
+    margin-right: 10px;
+}
+
+.choice-box select {
+    margin-right: 20px;
+    padding: 5px;
+}
