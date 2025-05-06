@@ -19,11 +19,18 @@ body {
 
 .diagram-box {
     margin: 20px 0;
+    position: relative;
 }
 
 .diagram-box img {
     max-width: 100%;
     height: auto;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.diagram-box img.hidden {
+    opacity: 0;
 }
 
 .choice-box {
