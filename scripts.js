@@ -6,7 +6,7 @@ function updateDiagram() {
     const organsAffected = document.getElementById('organs-affected').value;
 
     // Construct the image path based on the selected options
-    const imagePath = `/${healthLevel}-${organsAffected}.png`;
+    const imagePath = `images/${healthLevel}-${organsAffected}.png`;
 
     // Get the diagram box and image elements
     const diagramBox = document.getElementById('diagram-box');
